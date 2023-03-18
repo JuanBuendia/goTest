@@ -1,0 +1,83 @@
+1.  como usuario quiero conocer las exposiciones que se encuentran disponible para conocer las obras de arte     
+{{server}}/exposiciones
+
+2.  como usuario quiero filtrar las exposiciones por año o por tipo  noticia, exposicion, podcast
+
+3.  como usuario quiero seleccionar una exposicion para ver las obras de arte 
+    {{server}}/obras_exposicion/38
+
+
+4. como administrador quiero crear una nueva exposicion para darla a conocer a la comunidad
+agregar tipo 
+
+5. como administrador quiero modificar la informacion de una exposicion tiulo, descripcion y las fechas en las que se realizan 
+agregar tipo 
+
+6. como administrador quiero eliminar una exposicion que no se ha registrado correctamente esto solo es valido si no cuenta con obras de arte asociadas, en el caso de contar con recursos multimedia estos seran eliminados 
+7  como administrador quiero visualizar todas las exposiciones que se encuentran registradas en base de datos 
+
+comentarios
+como usuario quiero agregar un comentario de una obra que me ha llamado la atención 
+como usuario quiero modificar un comentario que realice de una obra 
+como usuario visualizar los comentarios de otras personas para saber que piensan 
+
+
+
+
+8 obras 
+crear obra  ok
+eliminar obra ok 
+actualizar obra  ok
+listar obras por id de exposicion ok
+listar todas las obras
+ver obra por el id
+
+Favoritos
+agregar favorito   ok
+eliminar favorito   ok   
+listar favoritos por device
+traer informacion de favorito es traer una obra
+
+comentarios de obras 
+como u
+
+
+cargar documentos
+
+9  crear los recursos multimedia y asignar en obras y exposiciones
+el sistema permitira subir
+ documentos pdf
+ audio
+ video 
+ imagenes
+
+ como usuario quiero reproducir un audio para escucharlo 
+ como usuario quiero visualizar las imagenes de una obra de arte 
+ como usuario quiero reproducir un video 
+
+ multimedia 
+ tipo     video   pdf   audio imagen 
+ seleccionar todos los recursos multimedia de una obra 
+listar todos los elementos 
+
+
+
+
+
+archivos multimedia
+
+https://www.flickr.com/services/oauth/reque st_token
+?oauth_nonce=89601180
+&oauth_timestamp=1305583298
+&oauth_consumer_key=653e7a6ecc1d528c516cc8f92cf98611
+&oauth_signature_method=HMAC-SHA1
+&oauth_version=1.0
+&oauth_callback=http%3A%2F%2Fwww.example.com
+
+Clave:
+69002700b282add601f59ce9cda379d4
+
+Secreto:
+849bf635e7e08363
+
+

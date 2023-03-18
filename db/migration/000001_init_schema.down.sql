@@ -1,0 +1,10 @@
+drop table COMMENTS;
+drop table VISIT;
+drop table ASSTES_SITE;
+drop table SITE;
+drop table USERS;
+drop table CATEGORY;
+drop table ASSETS;
+drop table KIND;
+drop table PLACE;
+drop table schema_migrations;
