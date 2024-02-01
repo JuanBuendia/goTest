@@ -21,3 +21,7 @@ jobs:
       # You can test your matrix by printing the current Go version
       - name: Display Go version
         run: go version
+      # Go Lint test
+      - name: Run golangci-lint
+        uses: golangci/golangci-lint-action@v3.7.0
+            
