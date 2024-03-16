@@ -1,12 +1,9 @@
-##Using multiple versions of go
-
 name: Go
 
 on: [push]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -25,11 +22,3 @@ jobs:
       # Go Lint test
       - name: Run golangci-lint
         uses: golangci/golangci-lint-action@v3.7.0
-      
-  #test:
-
-    #runs-on: ubuntu-latest
-    #strategy:
-          
-    #steps:again
-    #and again
