@@ -14,7 +14,7 @@ jobs:
         go-version: [ '1.14', '1.15', '1.16.x' ]
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Setup Go ${{ matrix.go-version }}
         uses: actions/setup-go@v3
         with:
@@ -22,6 +22,9 @@ jobs:
       # You can test your matrix by printing the current Go version
       - name: Super Linter
         uses: super-linter/super-linter@v6.2.0
+        env:
+          # To report GitHub Actions status checks
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       # Go Lint test
       - name: Run golangci-lint
         uses: golangci/golangci-lint-action@v3.7.0
